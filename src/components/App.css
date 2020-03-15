@@ -1,0 +1,54 @@
+
+.container-button {
+  display: inline-flex;
+  width: 25%;
+  flex: 1 0 auto;
+  
+}
+.container-button button{
+  /*border:2px solid grey;
+  width: calc(1/4*100% - (1 - 1/4)*12px);
+  text-align:center;
+  padding:10px;
+  margin: 5px 4px 0 4px;
+  font-size: 1.5rem;*/
+  background-color: #e0e0e0;
+  border: 0;
+  font-size: 1.5rem;
+  margin: 3px 3px 3px 3px;
+  flex: 1 0 auto;
+  padding: 0;
+}
+.container-button button:hover{
+  background-color: rgb(73, 73, 73, 0.5);
+}
+.container-panel{
+  background-color: #858694;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  
+}
+.container-panel > div {
+  width: 100%;
+  margin-bottom: 1px;
+  flex: 1 0 auto;
+  display: flex;
+}
+
+.wide{
+width:50%;
+ /*width: calc(1/2*100% - (1 - 1/4)*12px);*/
+}
+.orange button{
+  background-color: orange;
+}
+.container-display{
+  border:2px solid grey;
+  text-align:right;
+  width: 100%;
+  padding:10px;
+  font-size: 2.5rem;
+  
+}
