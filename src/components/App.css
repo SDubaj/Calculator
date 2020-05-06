@@ -1,4 +1,23 @@
-
+body, html{
+  height:100vh;
+}
+#root{
+  height:100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.container{
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 .container-button {
   display: inline-flex;
   width: 25%;
